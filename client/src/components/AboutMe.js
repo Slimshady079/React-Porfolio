@@ -4,8 +4,9 @@ function AboutMe() {
   return (
     <div className="container-fluid">
       <div>
-        <p>
-          Hello! My name is Maximilian Gibes. I started coding in October of 2022. I'm a construction worker and
+        <h1>Hello! My name is Maximilian Gibes. </h1>
+        <p className="">
+          I started coding in October of 2022. I'm a construction worker and
           doing construction is actually what got me into coding. In my eyes,
           coding is like virtual construction, so I was immediately interested.
         </p>

@@ -3,8 +3,8 @@ import github from "../images/icons/icons8-github-48.png";
 
 function Footer() {
   return (
-    <div>
-      <footer>
+    <div className="footer container-fluid">
+      <footer className="">
         <div>
           <a href="https://github.com/Slimshady079" target="_blank">
             <img src={github}></img>

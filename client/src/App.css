@@ -1,11 +1,34 @@
+/* color palette */
+:root {
+  --first: #134074;
+  --second: #13315C;
+  --third: #0B2545;
+  --fourth: #8DA9C4;
+  --fifth: #EEF4ED;
+}
+ 
 .App {
   text-align: center;
+  background-color: #134074;
+  color: #EEF4ED;
 }
 
-.App-logo {
+.navbar {
+  background-color: #13315C ;
+}
+
+.footer {
+  background-color: #13315C;
+}
+
+ul {
+  list-style: none;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,7 +36,7 @@
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,15 +45,12 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
+} */
 
-ul {
-  list-style: none;
-}
 
 @keyframes App-logo-spin {
   from {
