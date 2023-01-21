@@ -10,7 +10,12 @@ function Contact() {
         {/* email */}
         <input type="email" placeholder="Email" name="email" />
         {/* message */}
-        <textarea type="text" placeholder="Enter your message" name="message"></textarea>
+        <textarea
+          type="text"
+          placeholder="Enter your message"
+          name="message"
+        ></textarea>
+        <button type="submit">Submit</button>
       </form>
     </div>
   );
