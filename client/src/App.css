@@ -29,7 +29,10 @@ padding-top: 15px;
   height: 100vh;
 }
 
-
+.me-img {
+  width: 17% !important;
+  height: 146px;
+}
 
 .navbar {
   background-color: var(--first) ;
