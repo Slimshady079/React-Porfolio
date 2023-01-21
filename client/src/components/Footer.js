@@ -1,4 +1,5 @@
 import React from "react";
+import github from "../images/icons/icons8-github-48.png";
 
 function Footer() {
   return (
@@ -6,7 +7,7 @@ function Footer() {
       <footer>
         <div>
           <a href="https://github.com/Slimshady079" target="_blank">
-            Github
+            <img src={github}></img>
           </a>
         </div>
       </footer>

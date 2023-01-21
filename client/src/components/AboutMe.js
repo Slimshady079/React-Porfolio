@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutMe() {
   return (
-    <div>
+    <div className="container-fluid">
       <div>
         <p>
           Hello! My name is Maximilian Gibes. I started coding in October of 2022. I'm a construction worker and
