@@ -2,7 +2,7 @@ import React from "react";
 import dreamJournal from "../images/dreamJournal.png";
 import national from "../images/NationalParksSearch.png";
 import passGen from "../images/passwordGenerator.png";
-import github from "../images/icons/icons8-github-48.png";
+import github1 from "../images/icons/github.png";
 
 function Portfolio() {
   return (
@@ -21,7 +21,7 @@ function Portfolio() {
                 target="_blank"
               >
                 National Parks Search
-                <img className="card-img-top" src={national}></img>
+                <img className="card-img-top image" src={national}></img>
               </a>
               <br></br>
               {/* Github Repo */}
@@ -30,7 +30,7 @@ function Portfolio() {
                 href="https://github.com/Slimshady079/National-Parks-Search"
                 target="_blank"
               >
-                <img src={github}></img>
+                <img src={github1}></img>
               </a>
             </div>
           </div>
@@ -46,7 +46,7 @@ function Portfolio() {
                 target="_blank"
               >
                 Dream Journal
-                <img className="card-img-top" src={dreamJournal}></img>
+                <img className="card-img-top image" src={dreamJournal}></img>
               </a>
               <br></br>
               {/* Github Repo */}
@@ -54,7 +54,7 @@ function Portfolio() {
                 href="https://github.com/btempini/Dream-Journal"
                 target="_blank"
               >
-                <img src={github}></img>
+                <img src={github1}></img>
               </a>
             </div>
           </div>
@@ -70,7 +70,7 @@ function Portfolio() {
                 target="_blank"
               >
                 Password Generator
-                <img className="card-img-top" src={passGen}></img>
+                <img className="card-img-top image" src={passGen}></img>
               </a>
               <br></br>
               {/* Github Repo */}
@@ -78,7 +78,7 @@ function Portfolio() {
                 href="https://github.com/Slimshady079/passwordGenerator"
                 target="_blank"
               >
-                <img src={github}></img>
+                <img src={github1}></img>
               </a>
             </div>
           </div>

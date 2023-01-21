@@ -12,7 +12,7 @@ function AboutMe() {
         </p>
         <p className="paragraph fs-2">
           In my eyes, coding is like virtual construction, so I was immediately
-          interested.
+          interested. I'm looking forward to learning more about code!
         </p>
       </div>
       <div className="col">
