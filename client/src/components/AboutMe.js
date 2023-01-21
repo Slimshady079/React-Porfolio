@@ -20,11 +20,16 @@ function AboutMe() {
           </p>
         </div>
         <div className="col">
-          <h1>Some of the languages I speak!</h1>
-          <p className="paragraph fs-2">HTML</p>
-          <p className="paragraph fs-2">CSS</p>
-          <p className="paragraph fs-2">JavaScript</p>
-          <p className="paragraph fs-2">M.E.R.N stack</p>
+          <p className="fs-2">Some of the languages I speak:</p>
+          <p className="paragraph fs-4">HTML</p>
+          <p className="paragraph fs-4">CSS</p>
+          <p className="paragraph fs-4">JavaScript</p>
+          <p className="paragraph fs-4">JQuery</p>
+          <p className="paragraph fs-4">Bootstrap</p>
+          <p className="paragraph fs-4">Node</p>
+          <p className="paragraph fs-4">APIs</p>
+          <p className="paragraph fs-4">MySQL, Sequelize</p>
+          <p className="paragraph fs-4">M.E.R.N stack</p>
         </div>
       </div>
     </div>

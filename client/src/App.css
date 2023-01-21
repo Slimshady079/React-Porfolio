@@ -29,6 +29,10 @@ padding-top: 15px;
   height: 100vh;
 }
 
+.con-text {
+  color: var(--fifth);
+}
+
 .me-img {
   width: 17% !important;
   height: 146px;
