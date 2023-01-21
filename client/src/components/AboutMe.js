@@ -20,7 +20,7 @@ function AboutMe() {
           </p>
         </div>
         <div className="col">
-          <p className="fs-2">Some of the languages I speak:</p>
+          <p className="fs-2 my-3">Some of the languages I speak:</p>
           <p className="paragraph fs-4">HTML</p>
           <p className="paragraph fs-4">CSS</p>
           <p className="paragraph fs-4">JavaScript</p>
