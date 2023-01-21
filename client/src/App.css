@@ -7,22 +7,51 @@
   --fifth: #EEF4ED;
 }
  
+/* h1 {
+  background-color: var(--fourth);
+
+} */
+
 .App {
   text-align: center;
-  background-color: #134074;
-  color: #EEF4ED;
+  /* background-color: var(--fourth); */
+  background-image: linear-gradient(to bottom, #8DA9C4 0%, #13315C 100%);
+  color: var(--fifth);
+  /* !! see if there is anything better than viewheight to fix problem */
+  height: 100vh;
 }
 
 .navbar {
-  background-color: #13315C ;
+  background-color: var(--first) ;
+  color: var(--fifth)
 }
 
 .footer {
-  background-color: #13315C;
+  background-color: var(--first);
+  position: fixed;
+  bottom: 0px;
 }
 
 ul {
   list-style: none;
+}
+
+.links {
+  color: var(--fifth);
+  text-decoration: none;
+}
+
+.links:hover {
+  color: bisque
+}
+
+.links-port {
+  text-decoration: none;
+}
+
+a:hover {
+  color: bisque;
+  opacity:0.5;
 }
 
 /* .App-logo {

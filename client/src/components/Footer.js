@@ -6,7 +6,11 @@ function Footer() {
     <div className="footer container-fluid">
       <footer className="">
         <div>
-          <a href="https://github.com/Slimshady079" target="_blank">
+          <a
+            className="links"
+            href="https://github.com/Slimshady079"
+            target="_blank"
+          >
             <img src={github}></img>
           </a>
         </div>
@@ -14,6 +18,7 @@ function Footer() {
       <footer>
         <div>
           <a
+            className="links"
             href="https://www.linkedin.com/in/maximilian-gibes-696387260/"
             target="_blank"
           >
@@ -23,7 +28,11 @@ function Footer() {
       </footer>
       <footer>
         <div>
-          <a href="mailto: maximiliangibes@gmail.com" target="_blank">
+          <a
+            className="links"
+            href="mailto: maximiliangibes@gmail.com"
+            target="_blank"
+          >
             Email
           </a>
         </div>

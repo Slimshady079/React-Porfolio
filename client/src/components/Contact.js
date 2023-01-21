@@ -2,19 +2,25 @@ import React from "react";
 
 function Contact() {
   return (
-    <div>
+    <div className="text-center">
       <form>
-        <h1>Contact Me below!</h1>
+        <h1 className="mb-3">Contact Me below!</h1>
         {/* name */}
-        <input type="text" placeholder="First & Last Name" name="name" />
+        <div className="mb-3">
+          <input type="text" placeholder="First & Last Name" name="name" />
+        </div>
         {/* email */}
-        <input type="email" placeholder="Email" name="email" />
+        <div className="mb-3">
+          <input type="email" placeholder="Email" name="email" />
+        </div>
         {/* message */}
-        <textarea
-          type="text"
-          placeholder="Enter your message"
-          name="message"
-        ></textarea>
+        <div className="mb-3">
+          <textarea
+            type="text"
+            placeholder="Enter your message"
+            name="message"
+          ></textarea>
+        </div>
         <button type="submit">Submit</button>
       </form>
     </div>

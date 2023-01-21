@@ -3,18 +3,18 @@ import dreamJournal from "../images/dreamJournal.png";
 import national from "../images/NationalParksSearch.png";
 import passGen from "../images/passwordGenerator.png";
 import github from "../images/icons/icons8-github-48.png";
-// !! can't get images to show up!
 
 function Portfolio() {
   return (
     <div className="container-fluid">
       <h1>Here are some of the Projects I've built!</h1>
       {/* National Parks Search */}
-      <div>
+      <div className="">
         <div className="col-3">
           <div className="card">
             {/* live deployment */}
             <a
+              className="links-port"
               href="https://slimshady079.github.io/National-Parks-Search/"
               target="_blank"
             >
@@ -24,6 +24,7 @@ function Portfolio() {
             <br></br>
             {/* Github Repo */}
             <a
+              className="links-port"
               href="https://github.com/Slimshady079/National-Parks-Search"
               target="_blank"
             >
@@ -37,7 +38,11 @@ function Portfolio() {
         <div className="col-3">
           <div className="card">
             {/* live deployment */}
-            <a href="https://dream-stream270.herokuapp.com/" target="_blank">
+            <a
+              className="links-port"
+              href="https://dream-stream270.herokuapp.com/"
+              target="_blank"
+            >
               Dream Journal
               <img className="card-img-top" src={dreamJournal}></img>
             </a>
@@ -55,6 +60,7 @@ function Portfolio() {
           <div className="card">
             {/* live deployment */}
             <a
+              className="links-port"
               href="https://slimshady079.github.io/passwordGenerator/"
               target="_blank"
             >
