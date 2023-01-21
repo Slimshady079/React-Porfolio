@@ -7,10 +7,15 @@
   --fifth: #EEF4ED;
 }
  
-/* h1 {
-  background-color: var(--fourth);
+h1 {
+padding-top: 15px;
+}
 
-} */
+
+
+.home {
+  padding-left: 10px;
+}
 
 .App {
   text-align: center;
@@ -37,7 +42,7 @@ ul {
 }
 
 .links {
-  color: var(--fifth);
+  color: var(--fifth) !important;
   text-decoration: none;
 }
 

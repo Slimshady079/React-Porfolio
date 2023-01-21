@@ -5,19 +5,19 @@ function Nav() {
   return (
     <div className="navbar">
       <div className="navbar">
-        <Link className="links" to="/">
+        <Link className="links navbar-brand home" to="/">
           Home
         </Link>
       </div>
       <div className="navbar">
         <ul className="justify-content-end nav ">
-          <li>
-            <Link className="links" to="/Portfolio">
+          <li className="nav-item">
+            <Link className="links nav-link" to="/Portfolio">
               Portfolio
             </Link>
           </li>
-          <li>
-            <Link className="links" to="/Contact">
+          <li className="nav-item">
+            <Link className="links nav-link" to="/Contact">
               Contact Me
             </Link>
           </li>
