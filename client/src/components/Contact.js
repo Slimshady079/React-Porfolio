@@ -11,7 +11,7 @@ function Contact() {
   if (submit) {
     return (
       <div className="text-center mt-5">
-        <h1 className="con-text">Thank you!</h1>
+        <h1 className="con-text">Thank you! </h1>
       </div>
     );
   }
