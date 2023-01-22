@@ -5,8 +5,8 @@
 #### [Description](#description)
 #### [Installation](#installation)
 #### [Usage](#usage)
-#### [Contributing](#contributing)
-#### [Tests](#tests)
+#### [Screenshot](#screeshot)
+#### [Deployment](#deployment)
 #### [Questions](#questions)
 
 ## Description:
@@ -18,10 +18,10 @@ cd client/ && npm start
 ## Usage:
 Allows the user to get into contact with me for future projects and gives them an idea of what to expect
 
-## Contributing:
+## Screenshot:
 N/A
 
-## Tests:
+## Deployment:
 N/A
 
 ## Questions:
