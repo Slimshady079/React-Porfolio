@@ -3,7 +3,9 @@ import dreamJournal from "../images/dreamJournal.png";
 import national from "../images/NationalParksSearch.png";
 import passGen from "../images/passwordGenerator.png";
 import github1 from "../images/icons/github.png";
-
+import notes from "../images/notes.png";
+import schedule from "../images/scheduler.png";
+import textEdit from "../images/textEdit.png";
 
 function Portfolio() {
   return (
@@ -77,6 +79,78 @@ function Portfolio() {
               {/* Github Repo */}
               <a
                 href="https://github.com/Slimshady079/passwordGenerator"
+                target="_blank"
+              >
+                <img src={github1}></img>
+              </a>
+            </div>
+          </div>
+        </div>
+        {/* Notes App */}
+        <div className="col-sm-3 mb-3 mb-sm-0">
+          <div className="">
+            <div className="card border-dark">
+              {/* live deployment */}
+              <a
+                className="links-port"
+                href="https://slimshady079.github.io/Notes-App/"
+                target="_blank"
+              >
+                Notes-App
+                <img className="card-img-top image" src={notes}></img>
+              </a>
+              <br></br>
+              {/* Github Repo */}
+              <a
+                href="https://github.com/Slimshady079/Notes-App"
+                target="_blank"
+              >
+                <img src={github1}></img>
+              </a>
+            </div>
+          </div>
+        </div>
+        {/* Work Schedule */}
+        <div className="col-sm-3 mb-3 mb-sm-0">
+          <div className="">
+            <div className="card border-dark">
+              {/* live deployment */}
+              <a
+                className="links-port"
+                href="https://slimshady079.github.io/Work-Schedule/"
+                target="_blank"
+              >
+                Scheduler
+                <img className="card-img-top image" src={schedule}></img>
+              </a>
+              <br></br>
+              {/* Github Repo */}
+              <a
+                href="https://github.com/Slimshady079/Work-Schedule"
+                target="_blank"
+              >
+                <img src={github1}></img>
+              </a>
+            </div>
+          </div>
+        </div>
+        {/* Text Editor */}
+        <div className="col-sm-3 mb-3 mb-sm-0">
+          <div className="">
+            <div className="card border-dark">
+              {/* live deployment */}
+              <a
+                className="links-port"
+                href="https://jate-text-editor-slimshady.herokuapp.com/"
+                target="_blank"
+              >
+                Text Editor
+                <img className="card-img-top image" src={textEdit}></img>
+              </a>
+              <br></br>
+              {/* Github Repo */}
+              <a
+                href="https://github.com/Slimshady079/Text-Editor"
                 target="_blank"
               >
                 <img src={github1}></img>
