@@ -29,8 +29,11 @@ N/A
 If you want to find more information about my coding and get a better idea of what I am capable of you can use this as a reference.
 
 ## Deployment:
+https://stuff-and-things.herokuapp.com/
 
 ## Screenshot:
+
+![stuff-and-things herokuapp com_](https://user-images.githubusercontent.com/115417230/213953659-353d16a5-a762-4cef-a031-ef25fae12b53.png)
 
 ## Questions:
 
